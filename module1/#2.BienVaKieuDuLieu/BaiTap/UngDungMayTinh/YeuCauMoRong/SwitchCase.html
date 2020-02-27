@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<form>
+    <input type="number" id="input1">
+    <input type="number" id="input2">
+    <br>
+    <br>
+    <input type="button" onclick="ClickMe(this);" value="addition(+)" id="add">
+    <input type="button" onclick="ClickMe(this);" value="subtraction(-)" id="sub">
+    <input type="button" onclick="ClickMe(this);" value="multiplication(x)" id="mul">
+    <input type="button" onclick="ClickMe(this);" value="division(/)" id="divi">
+    <p id="result">Result: </p>
+</form>
+<script>
+    let input1 ;
+    let input2 ;
+    let result ;
+    let add = document.getElementById("add");
+    let sub = document.getElementById("sub");
+    let mul = document.getElementById("mul");
+    let divi = document.getElementById("divi");
+    function ClickMe(a) {
+        input1 = parseInt(document.getElementById("input1").value);
+        input2 = parseInt(document.getElementById("input2").value);
+        switch (a){
+            case add:
+                let a1 = input1 + input2;
+                result = "Result: " + a1;
+                break;
+            case sub:
+                let b1 = input1 - input2;
+                result = "Result: " + b1;
+                break;
+            case mul:
+                let c1 = input1 * input2;
+                result = "Result: " + c1;
+                break;
+            case divi:
+                let d1 = input1 / input2;
+                result = "Result: " + d1;
+                break;
+        }
+        document.getElementById("result").innerText = result;
+    }
+</script>
+</body>
+</html>
