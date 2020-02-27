@@ -1,18 +1,16 @@
 function showresult(){
-    var ketqua;
+    var ketqua = document.getElementById("ketqua");
     var fromCurrency = document.getElementById("fromCurrency");
     var toCurrency = document.getElementById("toCurrency");
     var input = document.getElementById("input1").value ;
-
-    if ((fromCurrency[fromCurrency.selectedIndex].text == "VietNam") && (toCurrency[toCurrency.selectedIndex].text == "USD")){
-        var a = input/23000;
-        ketqua = "result: " + a;
-    }else if ((fromCurrency[fromCurrency.selectedIndex].text == "USD") && (toCurrency[toCurrency.selectedIndex].text == "VietNam")) {
-        var b = input*23000;
-        ketqua = "result: " + b;
+    var total;
+    if ((fromCurrency.value === "23000") && (toCurrency.value === "1")){
+        total = input/23000;
+    }else if ((fromCurrency.value === "1") && (toCurrency.value === "23000")) {
+        total = input*23000;
     }else {
-        var c = input *1;
-        ketqua = "result: " +c;
+        total = input *1;
     }
-    document.getElementById("ketqua").innerText = ketqua;
+    ketqua.innerText = "Result: " + total;
+
 }

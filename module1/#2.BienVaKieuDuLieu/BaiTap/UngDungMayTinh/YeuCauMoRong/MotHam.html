@@ -6,42 +6,35 @@
 </head>
 <body>
 <form>
-    <input type="number" id="input1">
-    <input type="number" id="input2">
+    <input type="number" id="input1"/>
+    <input type="number" id="input2"/>
     <br>
     <br>
-    <input type="button" onclick="ClickMe(this);" value="addition(+)" id="add">
-    <input type="button" onclick="ClickMe(this);" value="subtraction(-)" id="sub">
-    <input type="button" onclick="ClickMe(this);" value="multiplication(x)" id="mul">
-    <input type="button" onclick="ClickMe(this);" value="division(/)" id="divi">
+    <input type="button" onclick="ClickMe(this);" value="addition(+)" />
+    <input type="button" onclick="ClickMe(this);" value="subtraction(-)" />
+    <input type="button" onclick="ClickMe(this);" value="multiplication(x)" />
+    <input type="button" onclick="ClickMe(this);" value="division(/)"/>
 
     <p id="result">Result: </p>
 </form>
 <script>
     let input1 ;
     let input2 ;
-    let result ;
-    let add = document.getElementById("add");
-    let sub = document.getElementById("sub");
-    let mul = document.getElementById("mul");
-    let divi = document.getElementById("divi");
+    let result = document.getElementById("result") ;
+    let total;
     function ClickMe(a) {
         input1 = parseInt(document.getElementById("input1").value);
         input2 = parseInt(document.getElementById("input2").value);
-        if(a==add){
-            let a1 = input1 + input2;
-            result = "Result: " + a1;
-        }else if(a==sub){
-            let a1 = input1 - input2;
-            result = "Result: " + a1;
-        }else if(a==mul){
-            let a1 = input1 * input2;
-            result = "Result: " + a1;
-        }else if(a==divi){
-            let a1 = input1 / input2;
-            result = "Result: " + a1;
+        if(a.value == "addition(+)"){
+            total = "Result Addition : " + (input1 + input2);
+        }else if(a.value == "subtraction(-)"){
+            total = "Result subtraction : " + (input1 - input2);
+        }else if(a.value == "multiplication(x)"){
+            total = "Result multiplication : " + (input1 * input2);
+        }else if(a.value == "division(/)" ){
+            total = "Result division : " + (input1 / input2);
         }
-        document.getElementById("result").innerText = result;
+        result.innerText = total;
     }
 </script>
 </body>
