@@ -2,12 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a6a69661-d6d7-4af1-a93e-8767bbc4555d" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/#3.CauTrucDieuKien/ThucHanh/demo.txt" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/#3.CauTrucDieuKien/baiTap/ChiSoCanNangCoThe.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
@@ -20,6 +28,7 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
@@ -35,10 +44,18 @@
       <option name="presentableId" value="Default" />
       <updated>1582974905240</updated>
       <workItem from="1582974906845" duration="45000" />
+      <workItem from="1583285001451" duration="4350000" />
+      <workItem from="1583304650420" duration="1110000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="799" y="158" key="RollbackChangesDialog" timestamp="1583305299582">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="799" y="158" key="RollbackChangesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1583305299582" />
   </component>
 </project>
