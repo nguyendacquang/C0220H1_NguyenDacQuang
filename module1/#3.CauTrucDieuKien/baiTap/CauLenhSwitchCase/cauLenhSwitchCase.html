@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<form>
+    <input id="input1" type="text" min="1" max="12"/>
+    <input type="button" onclick="showResult()" value="tính số ngày"/>
+    <p id="result"></p>
+</form>
+<script>
+    let ketQua = document.getElementById("result");
+    let total;
+    function showResult() {
+        let a = document.getElementById('input1');
+        switch (a.value*1) {
+            case 1:
+            case 3:
+            case 5:
+            case 7:
+            case 8:
+            case 10:
+            case 12:
+                total = 'tháng có 31 ngày';
+                break;
+            case 2:
+                total = 'tháng có 28 hoặc 29 ngày';
+                break;
+            case 4:
+            case 6:
+            case 9:
+            case 11:
+                total = 'tháng có 30 ngày';
+                break;
+        }
+        ketQua.innerText = total;
+    }
+</script>
+</body>
+</html>
