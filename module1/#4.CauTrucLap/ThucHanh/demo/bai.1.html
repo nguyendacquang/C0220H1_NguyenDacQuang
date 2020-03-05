@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>bài 1</title>
+</head>
+<body>
+ <script>
+     /* nhập vào 1 chuỗi
+     sau đó hiển thị ra "true" nếu chuỗi đó là chuỗi đối xứng và ngược lại
+     * hiển thị ra "false */
+     let str = prompt("enter a string: ");
+
+     var mid = parseInt(str.length/2);
+     // do while
+     //var flag = true;
+     // do{
+     //     if(str.[i] !== str[str.length - i - 1]){
+     //         flag = false;
+     //         break;
+     //     }
+     //     i++
+     // }while (i<mid);
+     // alert(flag);
+     //for
+     var flag = false;
+     for (let i = 0; i < mid; i++){
+         if (str.charAt(i)===str.charAt(str.length - 1-i)){
+             flag = true;
+         }else {
+             flag = false
+         }
+     }
+     alert(flag);
+ </script>
+</body>
+</html>

@@ -2,7 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a6a69661-d6d7-4af1-a93e-8767bbc4555d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/#3.CauTrucDieuKien/baiTap/MayTinhDonGian/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/#4.CauTrucLap/BaiTap/2.HienThiCacSoNguyenTo/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/#4.CauTrucLap/ThucHanh/1.SuDungVongLapFor/bai.1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/#4.CauTrucLap/ThucHanh/1.SuDungVongLapFor/bai.2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/#4.CauTrucLap/ThucHanh/2.SuDungVongLapWhile/bai.1/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/#4.CauTrucLap/ThucHanh/2.SuDungVongLapWhile/bai.2/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/#4.CauTrucLap/ThucHanh/3.DoWhile/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/#4.CauTrucLap/ThucHanh/demo/bai.1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/#4.CauTrucLap/ThucHanh/demo/bai.2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/#CaseStudy/yeuCau1/YeuCau1.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/#CaseStudy/yeuCau1/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/#3.CauTrucDieuKien/baiTap/UngDungVui.html" beforeDir="false" afterPath="$PROJECT_DIR$/#3.CauTrucDieuKien/baiTap/UngDungVui.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -14,6 +24,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="HTML File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -21,7 +32,9 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="ProjectId" id="1YTmLv0hIYdWQuWVqe1ekYlZknv" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -32,6 +45,13 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\CodegymDN\module1\#CaseStudy\yeuCau2" />
+      <recent name="D:\CodegymDN\module1\#CaseStudy\yeuCau1" />
+      <recent name="D:\CodegymDN\module1\#4.CauTrucLap\ThucHanh\2.SuDungVongLapWhile" />
+    </key>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -45,7 +65,9 @@
       <updated>1582974905240</updated>
       <workItem from="1582974906845" duration="45000" />
       <workItem from="1583285001451" duration="4350000" />
-      <workItem from="1583304650420" duration="7373000" />
+      <workItem from="1583304650420" duration="7664000" />
+      <workItem from="1583370816940" duration="11814000" />
+      <workItem from="1583399158476" duration="6842000" />
     </task>
     <servers />
   </component>
@@ -53,9 +75,14 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="799" y="158" key="RollbackChangesDialog" timestamp="1583305299582">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state x="568" y="0" key="RollbackChangesDialog" timestamp="1583382004645">
+      <screen x="0" y="0" width="1366" height="728" />
     </state>
+    <state x="568" y="0" key="RollbackChangesDialog/0.0.1366.728@0.0.1366.728" timestamp="1583382004645" />
     <state x="799" y="158" key="RollbackChangesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1583305299582" />
+    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1583375227115">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup/0.0.1366.728@0.0.1366.728" timestamp="1583375227115" />
   </component>
 </project>

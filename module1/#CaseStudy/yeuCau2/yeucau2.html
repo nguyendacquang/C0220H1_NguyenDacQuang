@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>yêu cầu 2</title>
+</head>
+<body>
+<script>
+    let nameCustomer = "quang";
+    let IdCard = "123456789";
+    let birthdayCustomer = "19/12";
+    let emailCustomer = "abcabc@gmail.com";
+    let addressCustomer = "đà nẵng";
+    let typeService = "villa";
+    let typeRom = "vip";
+    let typeCustomer = "diamond";
+    let discount = 10;
+    let numberOfAccompanying = 10;
+    let rentDay = 7;
+    let totalPay;
+    let choose = prompt(
+        "1. hiển thị thông tin khách hàng.\n" +
+        "2. chỉnh thông tin khách hàng.\n" +
+        "3. hiển thị giá sau khi đươc giảm giá.\n"
+    );
+    switch (choose) {
+        case "1":
+            alert(
+                "Information of  customer: \n"+
+                "name: "+ nameCustomer +
+                "\nid card: "+IdCard +
+                "\nbirthday: "+ birthdayCustomer +
+                "\naddress: "+ addressCustomer +
+                "\ntype customer: "+ typeCustomer +
+                "\ndiscount: "+ discount+
+                "\nnumberOfAccompanying: "+numberOfAccompanying+
+                "\ntype rom: "+typeRom +
+                "\nrent day: "+rentDay+
+                "\ntype service: "+typeService+
+                "\nemailCustomer: "+ emailCustomer
+            );
+            break;
+        case "2":
+            let chooseEdit =prompt(
+                "choose InFormation costomer you want edit: \n"+
+                "1.name: "+ nameCustomer +
+                "\n2.id card: "+IdCard +
+                "\n3.birthday: "+ birthdayCustomer +
+                "\n4.address: "+ addressCustomer +
+                "\n5.type customer: "+ typeCustomer +
+                "\n6.discount: "+ discount+
+                "\n7.numberOfAccompanying: "+numberOfAccompanying+
+                "\n8.type rom: "+typeRom +
+                "\n9.rent day: "+rentDay+
+                "\n10.type service: "+typeService+
+                "\n11.emailCustomer: "+ emailCustomer
+            );
+            switch (chooseEdit) {
+                case "1":
+                    nameCustomer = prompt("enter name you want edit: ");
+                    break;
+                case "2":
+                    IdCard =prompt("enter id card you want edit: ");
+                    break;
+                case "3":
+                    birthdayCustomer =prompt("enter birthday you want edit: (dd/mm/yyyy");
+                    break;
+                case "4":
+                    addressCustomer = prompt("enter address you want edit: ");
+                    break;
+                case "5":
+                    typeCustomer= prompt("enter type customer you want edit: ");
+                    break;
+                case "6":
+                    discount = prompt("enter discount you want edit: ");
+                    break;
+                case "7":
+                    numberOfAccompanying = prompt("enter number of accompanying you want edit: ");
+                    break;
+                case "8":
+                    typeRom = prompt(" enter type rom you want edit: ");
+                    break;
+                case "9":
+                    rentDay = prompt("enter rentday you want edit: ");
+                    break;
+                case "10":
+                    typeService = prompt(" enter type service you want edit: (dd/mm/yyyy)");
+                    break;
+                case "11":
+                    emailCustomer = prompt("enter email customer you want edit: ");
+                    break;
+                default:
+                    alert("fail!!!");
+                    break;
+            }
+            alert(
+                "Information of  customer: \n"+
+                "name: "+ nameCustomer +
+                "\nid card: "+IdCard +
+                "\nbirthday: "+ birthdayCustomer +
+                "\naddress: "+ addressCustomer +
+                "\ntype customer: "+ typeCustomer +
+                "\ndiscount: "+ discount+
+                "\nnumberOfAccompanying: "+numberOfAccompanying+
+                "\ntype rom: "+typeRom +
+                "\nrent day: "+rentDay+
+                "\ntype service: "+typeService+
+                "\nemailCustomer: "+ emailCustomer
+            );
+            break;
+        default:
+            alert("fail!!!");
+            break;
+    }
+</script>
+</body>
+</html>
