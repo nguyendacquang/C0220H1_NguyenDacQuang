@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    let a = parseInt(prompt("tổng doanh thu: "));
+    let hoahong;
+    /*nếu thu nhỏ hơn 100 thì hoa hồng là 10%
+    nếu 200>doanh thu>= 100 thì hoa hồng là 15%
+    nếu doanh thu >= 200  thì hoa hồng là 21%
+     */
+    if (a<100){
+        hoahong =a*0.1;
+        alert("hoa hong: " + hoahong);
+    }else if (a<200 && a>=100) {
+        hoahong = a*0.15;
+        alert("hoa hong: " + hoahong);
+    }else {
+        hoahong = a*0.21;
+        alert("hoa hong: " + hoahong);
+    }
+</script>
+</body>
+</html>

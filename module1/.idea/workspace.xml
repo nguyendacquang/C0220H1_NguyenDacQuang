@@ -2,6 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a6a69661-d6d7-4af1-a93e-8767bbc4555d" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/#5.Mang/ThucHanh/TimGiaTriTrongMang/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/#5.Mang/ThucHanh/timGiaTriLonNhat/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/#5.Mang/baiTap/1.SuDungCacHamCoSan/bai.1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/#5.Mang/baiTap/1.SuDungCacHamCoSan/bai.2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/#5.Mang/baiTap/1.SuDungCacHamCoSan/bai.3.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/#4.CauTrucLap/ThucHanh/demo/bai.1.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/#4.CauTrucLap/ThucHanh/demo/bai.2.html" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -12,8 +19,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="HTML File" />
         <option value="JavaScript File" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -56,7 +63,11 @@
       <workItem from="1583285001451" duration="4350000" />
       <workItem from="1583304650420" duration="7664000" />
       <workItem from="1583370816940" duration="11814000" />
-      <workItem from="1583399158476" duration="6974000" />
+      <workItem from="1583399158476" duration="7039000" />
+      <workItem from="1583458624695" duration="2672000" />
+      <workItem from="1583656171924" duration="56000" />
+      <workItem from="1583740801380" duration="9588000" />
+      <workItem from="1583799257978" duration="703000" />
     </task>
     <servers />
   </component>
@@ -69,6 +80,10 @@
     </state>
     <state x="568" y="0" key="RollbackChangesDialog/0.0.1366.728@0.0.1366.728" timestamp="1583382004645" />
     <state x="799" y="158" key="RollbackChangesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1583305299582" />
+    <state x="339" y="162" key="run.anything.popup" timestamp="1583744293217">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="339" y="162" key="run.anything.popup/0.0.1366.728@0.0.1366.728" timestamp="1583744293217" />
     <state x="346" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1583375227115">
       <screen x="0" y="0" width="1366" height="728" />
     </state>

@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<form>
+    <h1>chuyển đỗi giữa độ C và F</h1>
+    <br>
+    <input type="text" id = "input1" value =0>
+    From:
+    <select id="input2">
+        <option>C</option>
+        <option>F</option>
+    </select>
+    To:
+    <select id="input3">
+        <option>F</option>
+        <option>C</option>
+    </select>
+    <input type="button" onclick="showresult()" value="result"/>
+    <p id="ketqua">result: </p>
+</form>
+<script>
+    function showresult(){
+        let ketqua;
+        let from = document.getElementById("input2");
+        let to = document.getElementById("input3");
+        let input =document.getElementById("input1");
+        if ((from[from.selectedIndex].text == "C") && (to[to.selectedIndex].text == "F")){
+            let a = input*9/5 + 32;
+            ketqua = "result: " + a;
+        }else if ((from[from.selectedIndex].text == "F") && (to[to.selectedIndex].text == "C")){
+            let b = (input-32)*5/9;
+            ketqua = "result: " + b;
+        }else {
+            let c =1;
+            ketqua = "result: " + c;
+        }
+        document.getElementById("ketqua").innerText= ketqua;
+    }
+</script>
+</body>
+</html>

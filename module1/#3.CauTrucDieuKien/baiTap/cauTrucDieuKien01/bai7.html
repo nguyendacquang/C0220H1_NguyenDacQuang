@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+/*nếu cuộc gọi dưới 10ph cước phí sẽ là 2000 1ph
+nếu cuộc gọi từ 10p trở đi cước phí sẽ là 1800 1phut*/
+<script>
+    let thoiGian =parseInt(prompt("thời gian cuộc gọi: "));
+    let cuocPhi
+    if (thoiGian < 10){
+        cuocPhi = thoiGian*2000;
+        alert("cước phí cuộc gọi: " + cuocPhi);
+    }else {
+        cuocPhi = thoiGian*1800;
+        alert("cước phí cuộc gọi: " + cuocPhi);
+    }
+</script>
+</body>
+</html>
