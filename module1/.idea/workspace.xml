@@ -2,13 +2,28 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a6a69661-d6d7-4af1-a93e-8767bbc4555d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/#5.Mang/ThucHanh/TimGiaTriTrongMang/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/#5.Mang/ThucHanh/timGiaTriLonNhat/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/#5.Mang/baiTap/1.SuDungCacHamCoSan/bai.1.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/#5.Mang/baiTap/1.SuDungCacHamCoSan/bai.2.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/#5.Mang/baiTap/1.SuDungCacHamCoSan/bai.3.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/#4.CauTrucLap/ThucHanh/demo/bai.1.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/#4.CauTrucLap/ThucHanh/demo/bai.2.html" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/#5.Mang/ThucHanh/taoBanCoCaro/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/#5.Mang/baiTap/2.LuyenTapMang01/bai.1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/#5.Mang/baiTap/2.LuyenTapMang01/bai.2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/#5.Mang/baiTap/2.LuyenTapMang01/bai.3.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/#5.Mang/baiTap/2.LuyenTapMang01/bai.4.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/#5.Mang/baiTap/2.LuyenTapMang01/bai.5.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/#5.Mang/baiTap/2.LuyenTapMang01/bai.6.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/#5.Mang/baiTap/2.LuyenTapMang01/bai.7.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/#5.Mang/baiTap/2.LuyenTapMang01/bai.8.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/#5.Mang/baiTap/2.LuyenTapMang01/bai.9.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/#5.Mang/baiTap/3.luyenTapMang2/bai.1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/#5.Mang/baiTap/3.luyenTapMang2/bai.2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/#5.Mang/baiTap/3.luyenTapMang2/bai.3.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/#5.Mang/baiTap/3.luyenTapMang2/bai.4.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/#5.Mang/baiTap/3.luyenTapMang2/bai.5.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/#5.Mang/baiTap/3.luyenTapMang2/bai.6.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/#5.Mang/baiTap/4.tuDien/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/#5.Mang/baiTap/5.ticTacToe/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/#5.Mang/baiTap/6.FakingTextareaOnTyping/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/#6.Ham/thucHanh/ChuyenDoiNhietDo/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/#6.Ham/thucHanh/taoVaGoiHam/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/#6.Ham/thucHanh/timMinCuaMang/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -67,7 +82,9 @@
       <workItem from="1583458624695" duration="2672000" />
       <workItem from="1583656171924" duration="56000" />
       <workItem from="1583740801380" duration="9588000" />
-      <workItem from="1583799257978" duration="703000" />
+      <workItem from="1583799257978" duration="6664000" />
+      <workItem from="1583842277739" duration="4129000" />
+      <workItem from="1583885652916" duration="28991000" />
     </task>
     <servers />
   </component>

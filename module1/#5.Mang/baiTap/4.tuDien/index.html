@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>từ điển</title>
+</head>
+<body>
+<form>
+    <input type="text" id="txt" onchange="search()"/>
+</form>
+<script>
+    let vn = ["xin chào", "tạm biệt"];
+    let eng = ["hello", "bye"];
+    let txt = document.getElementById("txt");
+    let kq;
+    function search() {
+       let i = 0;
+       while (i<vn.length){
+           if (txt.value === vn[i]){
+               kq = eng[i];
+               break;
+           }else if (txt.value === eng[i]){
+               kq = vn[i];
+               break;
+           }
+           i++;
+       }
+       console.log(kq);
+    }
+
+</script>
+</body>
+</html>

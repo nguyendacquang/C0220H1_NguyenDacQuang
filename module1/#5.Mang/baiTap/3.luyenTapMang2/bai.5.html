@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>bài 5</title>
+</head>
+<body>
+<script>
+    let str1 = prompt("nhập vào chuỗi thứ nhất: ");
+    let str2 = prompt("nhập vào chuỗi thứ hai: ");
+    flag = false;
+    if(str1.length == str2.length){
+        for (let i = 0; i< str1.length; i++){
+            if (str1[i] === str2[i]){
+                flag = true
+            }else {
+                flag = false;
+                break;
+            }
+        }
+        if (flag == true){
+            alert("hai chuỗi bằng nhau");
+        }else {
+            alert("hai chuỗi không bằng nhau");
+        }
+    }else {
+        alert("hai chuỗi không bằng nhau");
+    }
+
+</script>
+</body>
+</html>

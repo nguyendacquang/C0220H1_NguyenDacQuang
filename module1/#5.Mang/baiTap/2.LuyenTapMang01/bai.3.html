@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>bài 3</title>
+</head>
+<body>
+<script>
+    let array = [1, 35, 67, 3, 12, -14, 10, 9, 6, 44];
+    let tong = 0;
+    let max = 0;
+    for(let i = 0; i < array.length; i++){
+        tong += array[i];
+        if (array[i] > max){
+            max = array[i];
+        }
+    } console.log("max: " + max + "\n"+ "trung bình: " + eval(tong/array.length));
+
+</script>
+</body>
+</html>

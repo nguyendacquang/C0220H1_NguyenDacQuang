@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>bàn cờ caro</title>
+</head>
+<body>
+<form>
+    <h3>Caro Game Simple</h3>
+    <p id="carogame"></p>
+    <input type="button" value="X" onclick="changeValue1()">
+    <input type="button" value="O" onclick="changeValue2()">
+    <input type="button" value="check" onclick="isWin()">
+</form>
+<script>
+    let b = document.getElementById("carogame");
+    let board = [];
+    let data = "";
+    for (let i = 0; i < 5; i++) {
+        board[i] = new Array("_", "_", "_", "_", "_");
+    }
+    for (let i = 0; i < 5; i++) {
+        data += "\n";
+        for (let j = 0; j < 5; j++) {
+            data += board[i][j] + " ";
+        }
+    }
+    b.innerText =  data;
+    function changeValue1() {
+        let positionX = prompt("X: ");
+        let positionY = prompt("Y: ");
+        data = "";
+        board[positionX][positionY] = "x";
+        for (let i = 0; i < 5; i++) {
+            data += "<br/>";
+            for (let j = 0; j < 5; j++) {
+                data += board[i][j] + " ";
+            }
+        }
+        data += "<br/><br/>";
+        b.innerHTML = data;
+    }
+    function changeValue2() {
+        let positionX = prompt("O: ");
+        let positionY = prompt("O: ");
+        data = "";
+        board[positionX][positionY] = "0";
+        for (let i = 0; i < 5; i++) {
+            data += "<br/>";
+            for (let j = 0; j < 5; j++) {
+                data += board[i][j] + " ";
+            }
+        }
+        data += "<br/><br/>";
+        b.innerHTML = data;
+    }
+    function isWin() {
+        for (let i = 0; i< 5;i++){
+            for (let j = 0; i< 5;i++){
+                if(board[i][j] !== "_"){
+                    if (board[i][j] === "x"){
+                        if (board[i][j]===board[i][j+1] && board[i][j]===board[i][j+2] ||
+                            board[i][j]===board[i+1][j] && board[i][j]===board[i+2][j] ||
+                            board[i][j]===board[i+1][j+1] && board[i][j]===board[i+2][j+2]
+                        ){
+                            alert("x the winner!");
+                        }
+                    }else if (board[i][j] === "0"){
+                        if (board[i][j]===board[i][j+1] && board[i][j]===board[i][j+2] ||
+                            board[i][j]===board[i+1][j] && board[i][j]===board[i+2][j] ||
+                            board[i][j]===board[i+1][j+1] && board[i][j]===board[i+2][j+2]
+                        ){
+                            alert("0 the winner!");
+                        }
+                    }
+
+                }
+            }
+        }
+        return false;
+    }
+</script>
+</body>
+</html>
