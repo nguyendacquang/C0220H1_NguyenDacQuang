@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>feet và meter</title>
+</head>
+<body>
+<form>
+    <input type="number" id="num"/>
+    <button type="submit" onclick="feetToMeter()">feet to meter</button>
+    <button type="submit" onclick="meterToFeet()">meter to feet</button>
+    <p id="result"></p>
+</form>
+<script>
+    let kq = 0;
+    let num = document.getElementById("num");
+    function feetToMeter() {
+        kq = 0.305 * num.value;
+        document.getElementById("result").innerText = kq;
+    }
+    function meterToFeet() {
+        kq = 3.279 * num.value;
+        document.getElementById("result").innerText = kq;
+    }
+</script>
+</body>
+</html>

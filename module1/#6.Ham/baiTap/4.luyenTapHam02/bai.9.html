@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>bai 9</title>
+</head>
+<body>
+<script>
+    function timKiTu(a,array) {
+        let dem = 0;
+        for (let i =0; i < array.length; i++){
+            if (a == array[i]) {
+                dem++;
+            }
+        } return dem;
+    }
+    let array = ["1","2","3","2","3","3","3"];
+    let a = prompt("nhập 1 số bất kì từ 1 đến 3: ");
+    alert(timKiTu(a,array));
+</script>
+</body>
+</html>
