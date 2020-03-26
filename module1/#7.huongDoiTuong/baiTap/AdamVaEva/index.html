@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+</head>
+<body>
+<script>
+    class Apple {
+        weight;
+        constructor(weight) {
+            this.weight = weight;
+        }
+        decrease(){
+            if (this.weight> 0){
+                this.weight--;
+            }
+        }
+        isEmpty(){
+            return this.weight = 0;
+        }
+        getWeight(){
+            return this.weight;
+        }
+    }
+    class Human{
+        name;
+        gender;
+        weight;
+        str;
+        constructor(name, gender, weight , str) {
+            this.name = name;
+            this.gender = gender;
+            this.weight = weight;
+            this.str = str;
+        }
+        setName(str){
+            return this.name = str;
+        }
+        setGender(gender){
+            return this.gender = gender;
+        }
+        setWeight(weight){
+            return this.weight = weight;
+        }
+        eat(){
+            return this.weight++;
+        }
+        say(str){
+            this.weight--;
+            console.log(this.name+ " nói: " + (this.str = str));
+        }
+    }
+    let adam = new Human("Adam","nam",65);
+    let eva = new Human("Eva","nữ",40);
+    let apple = new Apple(10);
+    console.log("name: " + adam.name +","+ " giới tính: " + adam.gender+ ","+" cân nặng: " +adam.weight);
+    console.log("name: " + eva.name+","+ " giới tính: " + eva.gender+","+ " cân nặng: " +eva.weight);
+    console.log("cân nặn quả táo: " +apple.getWeight());
+    console.log("sau khi ăn hết quả táo");
+    for (let i = 0; i<5; i++){
+        adam.eat();
+        apple.decrease();
+        eva.eat();
+        apple.decrease();
+    }
+    console.log("name: " + adam.name +","+ " giới tính: " + adam.gender+ ","+" cân nặng: " +adam.weight);
+    console.log("name: " + eva.name+","+ " giới tính: " + eva.gender+","+ " cân nặng: " +eva.weight);
+    console.log("cân nặn quả táo còn lại: " +apple.getWeight());
+    adam.say("ăn hết táo rồi :)))");
+    eva.say("no quá :D");
+    console.log("name: " + adam.name +","+ " giới tính: " + adam.gender+ ","+" cân nặng: " +adam.weight);
+    console.log("name: " + eva.name+","+ " giới tính: " + eva.gender+","+ " cân nặng: " +eva.weight);
+</script>
+</body>
+</html>

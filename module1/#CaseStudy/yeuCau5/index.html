@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>yêu cầu 5</title>
+</head>
+<body>
+<script>
+    let arrListCustomer=[];
+    function displayMainMenu() {
+        let choose = parseInt(prompt("1.add name customer"+"\n"+"2.display information customer"+
+        "\n"+"3.edit infomation customer"+"\n"+ "4.deleta customer"+"\n"+"5.exit"));
+        switch (choose) {
+            case 1:{
+                addNewCustomer();
+                break;
+            }
+            case 2:{
+                displayCustomer()
+                break;
+            }
+            case 3:{
+                editCustomer();
+                break;
+            }
+            case 4:{
+                deleteCustomer();
+                break;
+            }
+            case 5:{
+                exit();
+                break;
+            }
+            default:{
+                alert("failed!!");
+            }
+        }
+    }
+    function displayCustomer() {
+        let temp= "";
+        for (let i = 0; i<arrListCustomer.length;i++){
+            temp+=i+". Name: "+arrListCustomer[i][0]+"\n";
+        }
+        let chooseDisplay = parseInt(prompt(temp));
+        alert("Information of  customer: \n"+
+            "tên: "+ arrListCustomer[chooseDisplay][0] +
+            "\nid card: "+arrListCustomer[chooseDisplay][1] +
+            "\nbirthday: "+ arrListCustomer[chooseDisplay][2] +
+            "\nemailCustomer: "+ arrListCustomer[chooseDisplay][3] +
+            "\naddress: "+ arrListCustomer[chooseDisplay][4] +
+            "\ntype service: "+arrListCustomer[chooseDisplay][5]+
+            "\ntype rom: "+arrListCustomer[chooseDisplay][6] +
+            "\ntype customer: "+ arrListCustomer[chooseDisplay][7] +
+            "\ndiscount: "+ arrListCustomer[chooseDisplay][8]+
+            "\nquantityIncluded: "+ arrListCustomer[chooseDisplay][9] +
+            "\nrent day: "+arrListCustomer[chooseDisplay][0]
+        );
+        displayMainMenu();
+    }
+    function editCustomer() {
+        let temp= "";
+        for (let i = 0; i<arrListCustomer.length;i++){
+            temp+=i+". Name: "+arrListCustomer[i][0]+"\n";
+        }
+        let chooseDisplay = parseInt(prompt(temp));
+        let chooseEdit =prompt(
+            "choose InFormation costomer you want edit: \n"+
+            "1.name: "+ arrListCustomer[chooseDisplay][0] +
+            "\n2.id card: "+arrListCustomer[chooseDisplay][1] +
+            "\n3.birthday: "+ arrListCustomer[chooseDisplay][2] +
+            "\n4.emailCustomer: "+ arrListCustomer[chooseDisplay][3]+
+            "\n5.address: "+ arrListCustomer[chooseDisplay][4] +
+            "\n6.type service: "+arrListCustomer[chooseDisplay][5]+
+            "\n7.type rom: "+arrListCustomer[chooseDisplay][6] +
+            "\n8.type customer: "+ arrListCustomer[chooseDisplay][7] +
+            "\n9.discount: "+ arrListCustomer[chooseDisplay][8]+
+            "\n10.quantityIncluded: "+ arrListCustomer[chooseDisplay][9] +
+            "\n11.rent day: "+arrListCustomer[chooseDisplay][10]
+        );
+        switch (chooseEdit) {
+            case "1": {
+                arrListCustomer[chooseDisplay][0] = prompt("enter name you want edit: ");
+                break;
+            }
+            case "2": {
+                arrListCustomer[chooseDisplay][1] = prompt("enter id card you want edit: ");
+                break;
+            }
+            case "3": {
+                arrListCustomer[chooseDisplay][2] = prompt("enter birthday you want edit: ");
+                break;
+            }
+            case "4": {
+                arrListCustomer[chooseDisplay][3] = prompt("enter email Customer you want edit: ");
+                break;
+            }
+            case "5": {
+                arrListCustomer[chooseDisplay][4] = prompt("enter address you want edit: ");
+                break;
+            }
+            case "6": {
+                arrListCustomer[chooseDisplay][5] = prompt("enter type service you want edit: ");
+                break;
+            }
+            case "7": {
+                arrListCustomer[chooseDisplay][6] = prompt("enter type rom you want edit: ");
+                break;
+            }
+            case "8": {
+                arrListCustomer[chooseDisplay][7] = prompt("enter type customer you want edit: ");
+                break;
+            }
+            case "9": {
+                arrListCustomer[chooseDisplay][8] = prompt("enter discount you want edit: ");
+                break;
+            }
+            case "10": {
+                arrListCustomer[chooseDisplay][9] = prompt("enter quantityIncluded you want edit: ");
+                break;
+            }
+            case "11": {
+                arrListCustomer[chooseDisplay][10] = prompt("enter rent day you want edit: ");
+                break;
+            }
+            default: {
+                alert("fail!!!");
+                break;
+            }
+        }
+        displayMainMenu();
+    }
+    function addNewCustomer() {
+        let cusInfo=[];
+        let name = prompt("enter name : ");
+        let cmnd = prompt("enter ID card customer: ");
+        let birthday = prompt("enter birthday (dd/MM/yyyy): ");
+        let email = prompt("enter email : ");
+        let address = prompt("enter address: ");
+        let typeService = prompt("enter type service: ");
+        let typeRom = prompt("enter type Rom: ");
+        let typeCustomer = prompt("enter type Customer: ");
+        let discount = prompt("enter discount: ");
+        let quantityIncluded = prompt("enter quantityIncluded: ");
+        let rentDay = prompt("enter rent day: ");
+        cusInfo.push(name);
+        cusInfo.push(cmnd);
+        cusInfo.push(birthday);
+        cusInfo.push(email);
+        cusInfo.push(address);
+        cusInfo.push(typeService);
+        cusInfo.push(typeRom);
+        cusInfo.push(typeCustomer);
+        cusInfo.push(discount);
+        cusInfo.push(quantityIncluded);
+        cusInfo.push(rentDay);
+        arrListCustomer.push(cusInfo);
+        alert("bạn đã thêm thành công.");
+        displayMainMenu()
+    }
+    displayMainMenu();
+</script>
+</body>
+</html>

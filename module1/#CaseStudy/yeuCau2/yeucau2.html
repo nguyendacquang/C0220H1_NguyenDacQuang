@@ -10,7 +10,7 @@
     let IdCard = "123456789";
     let birthdayCustomer = "19/12";
     let emailCustomer = "abcabc@gmail.com";
-    let addressCustomer = "đà nẵng";
+    let addressCustomer = "Đà Nẵng";
     let typeService = "villa";
     let typeRom = "vip";
     let typeCustomer = "diamond";
@@ -108,9 +108,29 @@
                 "\nemailCustomer: "+ emailCustomer
             );
             break;
-        default:
-            alert("fail!!!");
+        case "3":{
+            let money = 0 ;
+            if (typeService === "villa"){
+                money = 500;
+            }else if (typeService === "house"){
+                money = 300;
+            }else if (typeService === "room"){
+                money = 100;
+            }
+            let temp = 0;
+            if (addressCustomer === "Đà Nẵng"){
+                temp+= 20;
+            }else if(addressCustomer === "Huế"){
+                temp+= 10;
+            }else if(addressCustomer === "Quảng Nam"){
+                temp+= 5;
+            }
+            if (rentDay){
+                
+            }
+            alert("total pay: " + (money*rentDay-temp));
             break;
+        }
     }
 </script>
 </body>

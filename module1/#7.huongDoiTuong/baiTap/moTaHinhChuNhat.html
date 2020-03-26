@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>mô tả hình chữ nhật</title>
+</head>
+<body>
+<canvas id="myCanvas" width="400" height="200"></canvas>
+<button type="button" onclick="veHinhChuNhat()">submit</button>
+<script>
+    class Rectangle {
+        d;
+        r;
+        constructor(d, r) {
+            this.d = d;
+            this.r = r;
+        }
+        chieuDai() {
+            return this.d;
+        }
+        chieuRong() {
+            return this.r;
+        }
+    }
+    function veHinhChuNhat() {
+        let d = parseInt(prompt("chiều dài"));
+        let r = parseInt(prompt("chiều rộng"));
+        let rectangle = new Rectangle(d, r);
+        alert("chu vi: " + (rectangle.chieuDai()+rectangle.chieuRong())*2 + "\n"
+            + "Diện tích: " + (rectangle.chieuDai()*rectangle.chieuRong()));
+        var c = document.getElementById("myCanvas");
+        var ctx = c.getContext("2d");
+        ctx.fillRect(0, 0, rectangle.chieuDai(), rectangle.chieuRong());
+    }
+</script>
+</body>
+</html>

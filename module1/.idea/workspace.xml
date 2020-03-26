@@ -2,16 +2,22 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a6a69661-d6d7-4af1-a93e-8767bbc4555d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/#6.Ham/baiTap/2.feetVaMeter/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/#6.Ham/baiTap/4.luyenTapHam02/bai.1.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/#6.Ham/baiTap/4.luyenTapHam02/bai.2.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/#6.Ham/baiTap/4.luyenTapHam02/bai.3.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/#6.Ham/baiTap/4.luyenTapHam02/bai.4.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/#6.Ham/baiTap/4.luyenTapHam02/bai.5.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/#6.Ham/baiTap/4.luyenTapHam02/bai.6.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/#6.Ham/baiTap/4.luyenTapHam02/bai.7.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/#6.Ham/baiTap/4.luyenTapHam02/bai.8.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/#6.Ham/baiTap/4.luyenTapHam02/bai.9.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/#7.huongDoiTuong/baiTap/3.gameDonGian/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/#7.huongDoiTuong/baiTap/3.gameDonGian/script.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/#7.huongDoiTuong/baiTap/AdamVaEva/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/#7.huongDoiTuong/baiTap/CongTacVaBongDen/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/#7.huongDoiTuong/baiTap/Temperature.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/#7.huongDoiTuong/baiTap/moTaHinhChuNhat.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/#7.huongDoiTuong/thucHanh/1.XayDungLopHinhTron.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/#7.huongDoiTuong/thucHanh/2.FunnyCircles.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/#7.huongDoiTuong/thucHanh/3.XayDungLopData.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/#7.huongDoiTuong/thucHanh/4.HoatDongCuaDenPin.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/#CaseStudy/yeuCau3/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/#CaseStudy/yeuCau4/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/#CaseStudy/yeuCau5/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/#6.Ham/baiTap/3.LuyenTapHam01/bai5.html" beforeDir="false" afterPath="$PROJECT_DIR$/#6.Ham/baiTap/3.LuyenTapHam01/bai5.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/#CaseStudy/yeuCau1/YeuCau1.js" beforeDir="false" afterPath="$PROJECT_DIR$/#CaseStudy/yeuCau1/YeuCau1.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/#CaseStudy/yeuCau2/yeucau2.html" beforeDir="false" afterPath="$PROJECT_DIR$/#CaseStudy/yeuCau2/yeucau2.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -43,10 +49,14 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/#7.huongDoiTuong/baiTap/3.gameDonGian" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\CodegymDN\module1\#7.huongDoiTuong\baiTap\3.gameDonGian" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\CodegymDN\module1" />
       <recent name="D:\CodegymDN\module1\#CaseStudy\yeuCau2" />
       <recent name="D:\CodegymDN\module1\#CaseStudy\yeuCau1" />
       <recent name="D:\CodegymDN\module1\#4.CauTrucLap\ThucHanh\2.SuDungVongLapWhile" />
@@ -74,6 +84,17 @@
       <workItem from="1583842277739" duration="4129000" />
       <workItem from="1583885652916" duration="29173000" />
       <workItem from="1584012447573" duration="11896000" />
+      <workItem from="1584060074923" duration="3704000" />
+      <workItem from="1584327753405" duration="9000" />
+      <workItem from="1584328158100" duration="4000" />
+      <workItem from="1584412620033" duration="4960000" />
+      <workItem from="1584431330251" duration="7126000" />
+      <workItem from="1584494144614" duration="4954000" />
+      <workItem from="1584523550933" duration="10309000" />
+      <workItem from="1584582857708" duration="2631000" />
+      <workItem from="1585014898432" duration="2773000" />
+      <workItem from="1585098050244" duration="10489000" />
+      <workItem from="1585116987724" duration="16600000" />
     </task>
     <servers />
   </component>
@@ -86,10 +107,11 @@
     </state>
     <state x="568" y="0" key="RollbackChangesDialog/0.0.1366.728@0.0.1366.728" timestamp="1583382004645" />
     <state x="799" y="158" key="RollbackChangesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1583305299582" />
-    <state x="339" y="162" key="run.anything.popup" timestamp="1583744293217">
-      <screen x="0" y="0" width="1366" height="728" />
+    <state x="476" y="231" key="run.anything.popup" timestamp="1584437236641">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="339" y="162" key="run.anything.popup/0.0.1366.728@0.0.1366.728" timestamp="1583744293217" />
+    <state x="476" y="231" key="run.anything.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1584437236641" />
     <state x="346" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1583375227115">
       <screen x="0" y="0" width="1366" height="728" />
     </state>

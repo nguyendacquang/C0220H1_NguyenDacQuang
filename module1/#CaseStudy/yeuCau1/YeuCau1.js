@@ -23,4 +23,4 @@ alert("Information of  customer: \n"+
     "\ntype service: "+typeService+
     "\nemailCustomer: "+ emailCustomer+
     "\ntotal pays: "+ totalPays
-)
+);

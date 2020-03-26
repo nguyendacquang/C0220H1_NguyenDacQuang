@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Temperature</title>
+</head>
+<body>
+<script>
+    class Temperature {
+        c;
+        constructor(c) {
+            this.c = c;
+        }
+        C_sang_F(){
+            return this.c*1.8 + 32;
+        }
+        C_sang_kenvin(){
+            return this.c+273.15;
+        }
+    }
+    let temperature = new Temperature(25);
+    console.log("độ F: "+ temperature.C_sang_F()+"\n"+ "độ K: "+ temperature.C_sang_kenvin() );
+</script>
+</body>
+</html>

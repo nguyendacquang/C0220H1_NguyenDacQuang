@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>xây dụng lớp data</title>
+</head>
+<body>
+<script>
+    class MyData {
+        day;
+        month;
+        year;
+        constructor(dd, mm, yyyy) {
+            this.day = dd;
+            this.month = mm;
+            this.year = yyyy;
+        }
+        getDay(){
+            return this.day;
+        }
+        getMonth(){
+            return this.month;
+        }
+        getYear(){
+            return this.year;
+        }
+        setDay(dd){
+            return this.day = dd;
+        }
+        setMonth(mm){
+            return this.month = mm;
+        }
+        setYear(yyyy){
+            return this.year = yyyy;
+        }
+    }
+    let data = new MyData("2","2","2007");
+    console.log(data.getDay()+","+data.getMonth()+","+data.getYear());
+    console.log(data.setDay(10)+","+data.setMonth(10)+","+data.setYear(2019));
+</script>
+</body>
+</html>

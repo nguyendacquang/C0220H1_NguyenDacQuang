@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>yêu cầu 3</title>
+</head>
+<body>
+<script>
+    let name ;
+    let number;
+    let rentDay;
+    let birthday;
+    let IdCard;
+    let email;
+    let address;
+    let type;
+    let discount;
+    let typeRom;
+    let typeService;
+    let check = false;
+    let tempName="";
+    let tempAddress="";
+    let tempTypeCustomer="";
+    name = prompt("enter name customer: ");
+    name= name.trim().toLowerCase();
+    for (let i = 0;i<name.length; i++){
+        if (name.charAt(i)===" "&&name.charAt(i+1)===" "){
+            continue;
+        }
+        if (i===0 || name.charAt(i-1)===" "){
+            tempName+=name.charAt(i).toUpperCase();
+            continue;
+        }
+        tempName+=name.charAt(i);
+    }
+    name = tempName;
+
+    do {
+        birthday = prompt("enter birthdayCustomer (dd/MM/yyyy): ")
+        if (birthday.charAt(2)==="/"&&birthday.charAt(5)==="/"){
+            let day = birthday.substring(0,2);
+            let month = birthday.substring(3,5);
+            let year = birthday.substring(6,10);
+            if (!isNaN(day)&&!isNaN(month)&&!isNaN(year)){
+                day = Number.parseFloat(day);
+                month = Number.parseFloat(month);
+                year = Number.parseFloat(year);
+                if (Number.isInteger(day)&&Number.isInteger(month)&&Number.isInteger(year)){
+                    if (day<32&&month<13&&year>1950){
+                        check = true;
+                    }
+                }
+            }
+        }
+        if (!check){
+            alert("ngày sinh không đúng định dạng!");
+        }
+    }while (!check);
+
+    check = false;
+    do {
+        IdCard = prompt("enter ID card customer: ");
+        if (!isNaN(IdCard)){
+            IdCard = Number.parseFloat(IdCard);
+        }
+        if (!Number.isInteger(IdCard)){
+            alert("IdCard không đúng định dạng.");
+            continue;
+        }
+        if (IdCard<10000000 || IdCard>999999999){
+            alert("IdCard không đúng định dạng.");
+            continue;
+            }
+        check = true;
+    }while (!check);
+
+    check = false;
+    do {
+        let countAt = 0;
+        let countDoc = 0;
+        email = prompt("enter email customer: ");
+        for (let i =0; i< email.length; i++){
+            if (email.charAt(i) === "@"){
+                countAt++;
+                for (let j = 0; j< email.length; j++){
+                    if (email.charAt(j) === "."){
+                        countDoc++;
+                    }
+                }
+            }
+        }
+        if (countAt!=1 || countDoc<1){
+            alert("email bạn nhập không đúng!");
+        }else {
+            check = true;
+        }
+    }while (!check);
+
+    check = false;
+    do {
+        rentDay = prompt("enter rent day: ");
+        if (!isNaN(rentDay)){
+            rentDay = Number.parseFloat(rentDay);
+            if (Number.isInteger(rentDay)&&rentDay>0){
+                check = true;
+            }
+        }
+        if (!check){
+            alert("rendays không phải là số nguyên dương!");
+        }
+    }while (!check);
+
+    check = false;
+    do {
+        numberOfAccompanying = prompt("enter number Of Accompanying : ");
+        if (!isNaN(numberOfAccompanying)){
+            numberOfAccompanying = Number.parseFloat(numberOfAccompanying);
+            if (Number.isInteger(numberOfAccompanying)&&numberOfAccompanying>0){
+                check = true;
+            }
+        }
+        if (!check){
+            alert("number Of Accompanying không phải là số nguyên dương!");
+        }
+    }while (!check);
+
+    check = false;
+
+    address = prompt("enter address Customer: ");
+    address= address.trim().toLowerCase();
+    for (let i = 0;i<address.length; i++){
+        if (address.charAt(i)===" "&&address.charAt(i+1)===" "){
+            continue;
+        }
+        if (i===0 || address.charAt(i-1)===" "){
+            tempAddress+=address.charAt(i).toUpperCase();
+            continue;
+        }
+        tempAddress+=address.charAt(i);
+    }
+    address = tempAddress;
+
+    typeCustomer = prompt("enter type Customer: ");
+    typeCustomer= typeCustomer.trim().toLowerCase();
+    for (let i = 0;i<typeCustomer.length; i++){
+        if (typeCustomer.charAt(i)===" "&&typeCustomer.charAt(i+1)===" "){
+            continue;
+        }
+        if (i===0 || typeCustomer.charAt(i-1)===" "){
+            tempTypeCustomer+=typeCustomer.charAt(i).toUpperCase();
+            continue;
+        }
+        tempTypeCustomer+=typeCustomer.charAt(i);
+    }
+    typeCustomer = tempTypeCustomer;
+
+    discount = prompt("enter discount: ");
+    typeRom = prompt("enter type Rom: ");
+    typeService = prompt("enter type service: ");
+
+    alert("Information of  customer: \n"+
+        "name: "+ name +
+        "\nid card: "+IdCard +
+        "\nbirthday: "+ birthday +
+        "\nemailCustomer: "+ email +
+        "\naddress: "+ address +
+        "\ntype customer: "+ typeCustomer +
+        "\ndiscount: "+ discount+
+        "\nnumberOfAccompanying: "+numberOfAccompanying+
+        "\ntype rom: "+typeRom +
+        "\nrent day: "+rentDay+
+        "\ntype service: "+typeService
+    );
+</script>
+</body>
+</html>
