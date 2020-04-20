@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    let fruit = ["Apple","Banana","Lemon"];
+    function removeFruit(thamSo){
+        for (let i=0;i<fruit.length;i++){
+            if (thamSo===fruit[i]){
+                fruit.splice(i,1);
+            }
+        }
+        alert("các loại trái cây còn lại "+fruit);
+    }
+    let thamSo = prompt("nhập vào tên 1 loại trái câu có tên sau đây " + fruit);
+    removeFruit(thamSo);
+</script>
+</body>
+</html>

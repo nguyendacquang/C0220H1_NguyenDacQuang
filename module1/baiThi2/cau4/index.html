@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    class NhanVien {
+        tenNhanVien;
+        soNgayLamViec;
+        mucLuongCoBanMotNgay;
+        constructor(tnv, snlv, mlcbmn){
+            this.tenNhanVien = tnv;
+            this.soNgayLamViec = snlv;
+            this.mucLuongCoBanMotNgay = mlcbmn;
+        }
+        tinhLuong(){
+            return this.soNgayLamViec*this.mucLuongCoBanMotNgay;
+        }
+    }
+    let tnv = prompt("tên nhân viên: ");
+    let snlv = parseInt(prompt("nhập số ngày làm việc: "));
+    let mlcbmn = parseInt(prompt("mước lương cơ bản 1 ngày"));
+    let nhanVien = new NhanVien(tnv, snlv, mlcbmn);
+    alert("lương của nhân viên "+ tnv + " : " + nhanVien.tinhLuong());
+</script>
+</body>
+</html>

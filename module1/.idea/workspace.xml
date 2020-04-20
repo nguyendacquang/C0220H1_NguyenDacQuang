@@ -2,22 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a6a69661-d6d7-4af1-a93e-8767bbc4555d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/#7.huongDoiTuong/baiTap/3.gameDonGian/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/#7.huongDoiTuong/baiTap/3.gameDonGian/script.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/#7.huongDoiTuong/baiTap/AdamVaEva/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/#7.huongDoiTuong/baiTap/CongTacVaBongDen/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/#7.huongDoiTuong/baiTap/Temperature.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/#7.huongDoiTuong/baiTap/moTaHinhChuNhat.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/#7.huongDoiTuong/thucHanh/1.XayDungLopHinhTron.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/#7.huongDoiTuong/thucHanh/2.FunnyCircles.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/#7.huongDoiTuong/thucHanh/3.XayDungLopData.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/#7.huongDoiTuong/thucHanh/4.HoatDongCuaDenPin.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/#CaseStudy/yeuCau3/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/#CaseStudy/yeuCau4/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/#CaseStudy/yeuCau5/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/#6.Ham/baiTap/3.LuyenTapHam01/bai5.html" beforeDir="false" afterPath="$PROJECT_DIR$/#6.Ham/baiTap/3.LuyenTapHam01/bai5.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/#CaseStudy/yeuCau1/YeuCau1.js" beforeDir="false" afterPath="$PROJECT_DIR$/#CaseStudy/yeuCau1/YeuCau1.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/#CaseStudy/yeuCau2/yeucau2.html" beforeDir="false" afterPath="$PROJECT_DIR$/#CaseStudy/yeuCau2/yeucau2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/#8.string/thucHanh/isUpperCase/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/#8.string/thucHanh/isUpperCase/script.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/baiThi2/CAU2/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/baiThi2/cau1/cau1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/baiThi2/cau3/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/baiThi2/cau4/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/#CaseStudy/yeuCau5/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/#CaseStudy/yeuCau5/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -28,6 +19,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="TypeScript File" />
         <option value="JavaScript File" />
         <option value="HTML File" />
       </list>
@@ -95,6 +87,16 @@
       <workItem from="1585014898432" duration="2773000" />
       <workItem from="1585098050244" duration="10489000" />
       <workItem from="1585116987724" duration="16600000" />
+      <workItem from="1585187748245" duration="693000" />
+      <workItem from="1585277215041" duration="3456000" />
+      <workItem from="1585380786308" duration="818000" />
+      <workItem from="1585554958964" duration="1203000" />
+      <workItem from="1585624416587" duration="1080000" />
+      <workItem from="1585706158829" duration="90000" />
+      <workItem from="1585708823644" duration="9081000" />
+      <workItem from="1586135232708" duration="535000" />
+      <workItem from="1586135924143" duration="611000" />
+      <workItem from="1586140764562" duration="5751000" />
     </task>
     <servers />
   </component>
